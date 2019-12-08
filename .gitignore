@@ -1,0 +1,23 @@
+
+# dependencies
+coefflights_frontend/node_modules
+/node_modules
+node_modules/**
+coefflights_frontend/build
+package-lock.json
+
+# testing
+/coverage
+
+# production
+/build
+
+
+node_modules/
+.idea/
+.DS_Store/
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
